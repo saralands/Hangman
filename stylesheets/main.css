@@ -1,0 +1,33 @@
+body {
+  font: normal 40px/normal Helvetica;
+  text-align: center;
+}
+
+.word {
+  margin-bottom: 40px;
+}
+.word span {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.alaphabet span {
+  color: red;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #fff;
+  transition: all .2s;
+}
+.alaphabet span:hover {
+  background-color: #eee;
+  curser: pointer;
+}
+.alaphabet span.has-letter {
+  background-color: purple;
+}
+
+/*# sourceMappingURL=main.css.map */
